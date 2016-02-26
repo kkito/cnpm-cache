@@ -1,11 +1,11 @@
 {
-  "name": "npm-cache",
-  "version": "0.6.0",
+  "name": "cnpm-cache",
+  "version": "0.1.0",
   "description": "cache dependency manager installs to local machine",
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "git://github.com/swarajban/npm-cache.git"
+    "url": "git://github.com/kkito/cnpm-cache.git"
   },
   "keywords": [
     "npm",
@@ -16,18 +16,9 @@
     "composer",
     "local"
   ],
-  "author": "swaraj",
-  "contributors": [
-    {
-      "name": "Aaron Nordyke",
-      "email": "aaron.nordyke@gmail.com"
-    }
-  ],
+  "author": "kkito",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/swarajban/npm-cache/issues"
-  },
-  "homepage": "https://github.com/swarajban/npm-cache",
+  "homepage": "https://github.com/kkito/cnpm-cache",
   "dependencies": {
     "async": "1.5.0",
     "fs-extra": "^0.26.2",
@@ -42,6 +33,6 @@
   },
   "preferGlobal": true,
   "bin": {
-    "npm-cache": "index.js"
+    "cnpm-cache": "index.js"
   }
 }

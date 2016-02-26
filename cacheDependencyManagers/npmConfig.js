@@ -32,10 +32,10 @@ function getFileHash(filePath) {
 module.exports = {
   cliName: 'npm',
   getCliVersion: function getNpmVersion () {
-    return shell.exec('npm --version', {silent: true}).output.trim();
+    return shell.exec('cnpm --version', {silent: true}).output.trim();
   },
   configPath: getNpmConfigPath(),
   installDirectory: 'node_modules',
-  installCommand: 'npm install',
+  installCommand: 'cnpm install',
   getFileHash: getFileHash
 };
