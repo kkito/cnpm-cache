@@ -2,11 +2,13 @@ cnpm-cache
 =========
 
 fork from [npm-cache](https://github.com/swarajban/npm-cache)
-use [cnpm](http://npm.taobao.org/) instead of npm
+
+the only difference is use [cnpm](http://npm.taobao.org/) instead of npm
 
 ## Installation
 ```
-cnpm install -g git+https://github.com/kkito/cnpm-cache.git
+npm install -g cnpm 
+npm install -g git+https://github.com/kkito/cnpm-cache.git
 ```
 
 ## Usage
