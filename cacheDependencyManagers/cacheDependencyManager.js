@@ -111,7 +111,7 @@ CacheDependencyManager.prototype.archiveDependencies = function (cacheDirectory,
   function onEnd() {
     self.cacheLogInfo('installed and archived dependencies');
     onFinally();
-    callback();
+    //callback();
   }
 
   function onFinally() {
